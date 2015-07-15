@@ -13,9 +13,6 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Fatih CAMUZ on 14.7.2015.
- */
 public class MainActivity extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbar;
     RecyclerView recyclerView;
@@ -31,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
     private void initRecyclerView() {
 
@@ -74,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         collapsingToolbar.setTitle("Fatih CAMUZ");
 
     }
+
+
 
 
     @Override
